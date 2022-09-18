@@ -25,23 +25,29 @@ public class oyunTopuKontrolu : MonoBehaviour {
 
         }
    if(sayac==1)
-   //if(Input.GetMouseButtonUp(0) )
-   //    {
+   if(Input.GetMouseButtonUp(0) )
+       {
                
-   //             basladiMi = false ;
+                basladiMi = false ;
            
-   //         this.GetComponent<Rigidbody2D>().velocity = new Vector3(3f, 9f,0);
-   //           sayac++;
-   //   }
+            this.GetComponent<Rigidbody2D>().velocity = new Vector3(3f, 9f,0);
+              sayac++;
+      }
 
 	
 	}
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector2 ufakSapma = new Vector2(Random.Range(0f, 0.3f), Random.Range(0f, 0.3f));
-
-        GetComponent<Rigidbody2D>().velocity += ufakSapma;
-
+        if (transform.position.y >9.45f)
+        {
+            Vector2 ufakSapma1 = new Vector2(Random.Range(0f, 0.3f), Random.Range(0f, -2f));
+            GetComponent<Rigidbody2D>().velocity += ufakSapma1;
+        }
+        else
+        {
+            Vector2 ufakSapma = new Vector2(0, Random.Range(-0.3f, 0));
+            GetComponent<Rigidbody2D>().velocity += ufakSapma;
+        }
     }
    
 

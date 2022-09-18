@@ -12,9 +12,6 @@ public class SahneKontrolu : MonoBehaviour {
         int mevcutSahneninIndeksi = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(mevcutSahneninIndeksi+1);
 
-
-
-
     }
     public void SahneyeYonel(string sahneIsmi)
     {
@@ -29,7 +26,9 @@ public class SahneKontrolu : MonoBehaviour {
     }
     public void menuSahnesineYonel()
     {
+        
         SceneManager.LoadScene(0);
+        
     }
     public void oyundanCik()
     {
@@ -44,6 +43,14 @@ public class SahneKontrolu : MonoBehaviour {
     public void oncekiSahneyeGit()
     {
         SceneManager.LoadScene(oncekiSahne);
+        Bloklar.kirilabilirSayisi = 0;
+    }
+    public void ayniSahneyiTekrarla()
+    {
+        int suankiSahne = SceneManager.GetActiveScene().buildIndex;
+        
+        SceneManager.LoadScene(suankiSahne);
+        Bloklar.kirilabilirSayisi = 0;
     }
     
    

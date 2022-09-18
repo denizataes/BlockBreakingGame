@@ -147,7 +147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77.899994, y: -367.2}
+  m_AnchoredPosition: {x: -77.899994, y: -217}
   m_SizeDelta: {x: 665.55, y: 286.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155547018
@@ -462,6 +462,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1748128218234552, guid: c06607425d9b21b46bb0cd33f555474f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c06607425d9b21b46bb0cd33f555474f, type: 2}
   m_IsPrefabParent: 0
@@ -521,8 +525,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: AYARLAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 670fd6d6e15db7040bdcb14fced2e1a1, type: 2}
-  m_sharedMaterial: {fileID: 21917101632164438, guid: 670fd6d6e15db7040bdcb14fced2e1a1,
+  m_fontAsset: {fileID: 11400000, guid: 5ab3819dbe5a78d47a76c774e33f9610, type: 2}
+  m_sharedMaterial: {fileID: 21069248483954730, guid: 5ab3819dbe5a78d47a76c774e33f9610,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -549,8 +553,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 185
-  m_fontSizeBase: 185
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -567,7 +571,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -887,7 +891,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.199982, y: 414.8}
+  m_AnchoredPosition: {x: -15, y: 414.8}
   m_SizeDelta: {x: 770.9, y: 245.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542633380
@@ -1225,10 +1229,10 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: AYARLAR
+  m_text: ayarlar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 670fd6d6e15db7040bdcb14fced2e1a1, type: 2}
-  m_sharedMaterial: {fileID: 21917101632164438, guid: 670fd6d6e15db7040bdcb14fced2e1a1,
+  m_fontAsset: {fileID: 11400000, guid: 5ab3819dbe5a78d47a76c774e33f9610, type: 2}
+  m_sharedMaterial: {fileID: 21069248483954730, guid: 5ab3819dbe5a78d47a76c774e33f9610,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1255,8 +1259,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 250
-  m_fontSizeBase: 250
+  m_fontSize: 160
+  m_fontSizeBase: 160
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1273,7 +1277,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1385,8 +1389,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Geri
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 670fd6d6e15db7040bdcb14fced2e1a1, type: 2}
-  m_sharedMaterial: {fileID: 21917101632164438, guid: 670fd6d6e15db7040bdcb14fced2e1a1,
+  m_fontAsset: {fileID: 11400000, guid: 5ab3819dbe5a78d47a76c774e33f9610, type: 2}
+  m_sharedMaterial: {fileID: 21069248483954730, guid: 5ab3819dbe5a78d47a76c774e33f9610,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1468,7 +1472,7 @@ MonoBehaviour:
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 0
   m_inputSource: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 1797934296}
@@ -1743,7 +1747,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7a03de27d1d7da54084c4bcefa8652e9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b5a29a27b191dd4db59944a447e1f49, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2113,7 +2117,7 @@ GameObject:
   - component: {fileID: 1431685695}
   - component: {fileID: 1431685694}
   m_Layer: 5
-  m_Name: TMP SubMeshUI [Start with Today SDF Material + LiberationSans SDF Atlas]
+  m_Name: TMP SubMeshUI [Play The Game SDF Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2161,7 +2165,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 0
+  m_padding: 0.5
   m_canvasRenderer: {fileID: 1431685695}
   m_TextComponent: {fileID: 1740836298}
   m_materialReferenceIndex: 1
@@ -2228,8 +2232,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: cik
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 670fd6d6e15db7040bdcb14fced2e1a1, type: 2}
-  m_sharedMaterial: {fileID: 21917101632164438, guid: 670fd6d6e15db7040bdcb14fced2e1a1,
+  m_fontAsset: {fileID: 11400000, guid: 5ab3819dbe5a78d47a76c774e33f9610, type: 2}
+  m_sharedMaterial: {fileID: 21069248483954730, guid: 5ab3819dbe5a78d47a76c774e33f9610,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2256,8 +2260,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 250
-  m_fontSizeBase: 250
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2274,7 +2278,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2454,8 +2458,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: basla
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 670fd6d6e15db7040bdcb14fced2e1a1, type: 2}
-  m_sharedMaterial: {fileID: 21917101632164438, guid: 670fd6d6e15db7040bdcb14fced2e1a1,
+  m_fontAsset: {fileID: 11400000, guid: 5ab3819dbe5a78d47a76c774e33f9610, type: 2}
+  m_sharedMaterial: {fileID: 21069248483954730, guid: 5ab3819dbe5a78d47a76c774e33f9610,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2482,8 +2486,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 250
-  m_fontSizeBase: 250
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2500,7 +2504,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0

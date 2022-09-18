@@ -8,10 +8,13 @@ public class BasarisizSonuclanma : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        yonetici = GameObject.FindObjectOfType<SahneKontrolu>();
-        yonetici.SahneyeYonel("Kaybetme");
+        if (collision.gameObject.tag == "oyunTopu")
+        {
+            yonetici = GameObject.FindObjectOfType<SahneKontrolu>();
+            yonetici.SahneyeYonel("Kaybetme");
+        }
     }
         
-
+  
 
 }
